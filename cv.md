@@ -3,7 +3,7 @@
 
 ### Contact
 
-===
+---
 
 **E-mail:** cyril.trots@gmail.com
 **Phone:** +49 15238465548 (Germany)
@@ -12,13 +12,13 @@
 
 ### About Me
 
-===
+---
 
 I’m interested in web development and want to create simple and modern websites. I chose Front-End because it’s creative, fast, and I can see the results of my work right away. Now I’m learning and improving my skills, combining coding with design.
 
 ### Education
 
-===
+---
 
 * [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science)
 * [W3School](https://www.w3schools.com/)
@@ -28,7 +28,7 @@ I’m interested in web development and want to create simple and modern website
 
 ### Skills
 
-===
+---
 
 * HTML & CSS
 * JavaScript
@@ -37,7 +37,7 @@ I’m interested in web development and want to create simple and modern website
 
 ### My Code
 
-===
+---
 
 ```
 const factorialize = (number) => {
@@ -51,6 +51,6 @@ console.log(factorialize(5));
 
 ### English Level
 
-===
+---
 
 ~A2-B1
