@@ -7,7 +7,7 @@
 
 **E-mail:** cyril.trots@gmail.com
 **Phone:** +49 15238465548 (Germany)
-**Telegram:** @ktrots
+**Telegram:** @kiroshi_101
 **GitHub:** [makeeer](https://github.com/makeeer)
 
 ### About Me

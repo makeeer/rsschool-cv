@@ -1,1 +1,1 @@
-# rsschool-cv
+https://makeeer.github.io/rsschool-cv/cv
