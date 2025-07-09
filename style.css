@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(215, 208, 198);
+}
+
+.main {
+    display: block;
+    margin: 5% auto 5% auto;
+    background-color:aliceblue; /*antiquewhite*/
+    background-size: cover;
+    width: 50vw;
+    height: 1000vh;
+    box-shadow: 0px 0px 50px 10px rgba(80, 66, 51, 0.32);
+}
+
