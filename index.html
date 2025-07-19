@@ -5,59 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Kyrylo Trots CV</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <main class="main">
-        <h1>Kyrylo Trots</h1>
-        <h2>Junior Frontend Developer</h2>
-        <hr>
-        <h2>Contact</h2>
-        <ul>
-            <li><b>E-mail:</b> cyril.trots@gmail.com</li>
-            <li><b>Phone:</b> +49 15238465548 (Germany)</li>
-            <li><b>Telegram:</b> @kiroshi_101</li>
-            <li><b>GitHub:</b> <a href="https://github.com/makeeer">makeeer</a></li>
+    <nav class="nav">
+        <ul>  
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <hr>
-        <h2>About me</h2>
-        <p>
-            I’m interested in web development and want to create simple and modern websites. 
-            I chose Front-End because it’s creative, fast, and I can see the results of my work right away. 
-            Now I’m learning and improving my skills, combining coding with design.
-        </p>
-        <hr>
-        <h2>Education</h2>
-        <ul>
-            <li><a href="https://pll.harvard.edu/course/cs50-introduction-computer-science">CS50</a></li>
-            <li><a href="https://www.w3schools.com/">W3School</a></li>
-            <li><a href="https://jonas.io/">Jonas.io</a></li>
-            <li><a href="https://rs.school/">RSSchool</a></li>
-            <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
-        </ul>
-        <hr>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>GitHub & Git</li>
-            <li>VSCode & WebStorm</li>
-        </ul>
-        <hr>
-        <h2>My Code</h2>
-        <div class="code-bg">
-            <pre>
-                const factorialize = (number) => {
-                    if(number < 0) return -1;
-                    if(number == 0 || number == 1) return 1;
-                    return number * factorialize(number - 1);
-                } 
+    </nav>
+    <main>
+        <section id="profile" class="profile">
+            <div class="profile-wrapp">
+                <div class="cv-photo-wrapp">
+                    <img src="img/my photo.jpg" alt="My pprofile photo">
+                </div>
+                <div class="profile-text-wrapp">
+                    <h1>Kirill Trots</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </div>
+            </div>
+        </section>
 
-                console.log(factorialize(5));
-            </pre>
-        </div>
-        <hr>
-        <h2>English Level</h2>
-        <p>~A2-B1</p>
-    </main>
+        <section id="about" class="about"></section>
+        <section id="education" class="education"></section>
+        <section id="skills" class="skills"></section>
+        <section id="code" class="code"></section>
+        <section id="contact" class="contact"></section>
+    </main>  
 </body>
 </html>

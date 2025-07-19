@@ -1,19 +1,101 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    background-color:rgb(215, 208, 198);
 }
 
-.main {
-    display: block;
-    margin: 5% auto 5% auto;
-    background-color:aliceblue; /*antiquewhite*/
-    background-size: cover;
-    width: 50vw;
-    height: 150vh;
-    box-shadow: 0px 0px 50px 10px rgba(80, 66, 51, 0.32);
+body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
 }
 
-.code-bg {
-    background-color: rgb(221, 211, 211);
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.profile {
+    background-color: #09122C;
+    padding-top: 20vh;
+}
+
+.about {
+    background-color: #27548A; /* #27548A */
+}
+
+.education {
+    background-color: #4635B1;
+}
+
+.skills {
+    background-color: #B771E5;
+}
+
+.code {
+    background-color: #410445;
+}
+
+.contact {
+    background-color: #8B5DFF;
+}
+
+
+.profile-wrapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    position: fixed;
+    top: 30%;
+    right: 3%;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #FAE3C6;
+    font-size: 30px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #AFDDFF;
+}
+
+/*+++++++++++ PROFILE PHOTO +++++++++++++++*/
+.cv-photo-wrapp {
+    
+    margin: 0;
+    padding: 0;
+}
+
+.cv-photo-wrapp img {
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 10px 10px lightcoral;
+    border-radius: 5px;
+}
+
+/*+++++++++++ PROFILE TEXT +++++++++++++++*/
+
+.profile-text-wrapp {
+    margin-top: 50px;
+}
+
+.profile-text-wrapp h1{
+    font-size: 60px;
 }
